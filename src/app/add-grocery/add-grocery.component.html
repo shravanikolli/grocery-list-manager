@@ -17,8 +17,10 @@
 
   <ul class="list-group">
       <li *ngFor="let task of tasks" class="list-group-item">
-          <span> {{ task.name }} </span>
+        <input type="checkbox" (change)="removeItem(task, $event)"/> 
+        <span class="completed-item"> {{ task }} </span>
       </li>
   </ul>
+
 
 </div>
