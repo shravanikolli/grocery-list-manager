@@ -1,7 +1,7 @@
 <div >
   
   <div class="row">
-      <div class="col-xs-6 col-md-4">
+      <div class="col-md-6 col-md-offset-3 input-grocery">
           <div class="input-group">
               <input type="text" class="form-control" placeholder="Enter grocery items" [(ngModel)]="task" />
               <div class="input-group-btn">
@@ -15,7 +15,7 @@
 
   <br />
 
-  <ul class="list-group">
+  <ul class="list-group col-md-6 col-md-offset-3">
       <li *ngFor="let task of tasks" class="list-group-item">
         <input type="checkbox" (change)="removeItem(task, $event)"/> 
         <span class="completed-item"> {{ task }} </span>

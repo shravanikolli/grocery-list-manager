@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+.main-background{
+    background-image: url('./assets/grocery-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+body {
+    font-family: sans-serif;
+}

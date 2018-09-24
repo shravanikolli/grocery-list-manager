@@ -1,3 +1,15 @@
 input[type=checkbox]:checked + span.completed-item{
     text-decoration: line-through;
   }
+
+.list-group{
+    width: 50%;
+}  
+
+.input-grocery {
+    padding-left: 0;
+}
+
+.list-group-item {
+    color: #666666;
+}
